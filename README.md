@@ -75,7 +75,7 @@ If you care about speed, and memory is not an option, pass the `efficient=False`
 Otherwise, pass in `efficient=True`.
 
 Important Options:
-- `--batch_size` (int) - The number of images per batch (default 8000)
+- `--batch_size` (int) - The number of images per batch (default 3750)
 
 - `--fp16` (bool) - Whether to run with FP16 or not  (default False)
 

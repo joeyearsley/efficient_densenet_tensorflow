@@ -34,7 +34,7 @@ parser.add_argument('--train_epochs', type=int, default=250,
 parser.add_argument('--epochs_per_eval', type=int, default=10,
                     help='The number of epochs to run in between evaluations.')
 
-parser.add_argument('--batch_size', type=int, default=8000,
+parser.add_argument('--batch_size', type=int, default=3750,
                     help='The number of images per batch.')
 
 parser.add_argument('--fp16', type=bool, default=False,
