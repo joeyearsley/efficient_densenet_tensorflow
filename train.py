@@ -37,7 +37,7 @@ parser.add_argument('--epochs_per_eval', type=int, default=10,
 parser.add_argument('--batch_size', type=int, default=3750,
                     help='The number of images per batch.')
 
-parser.add_argument('--fp16', type=bool, default=False,
+parser.add_argument('--fp16', type = lambda x: (str(x).lower() == 'true'), default=False,
                     help='Whether to run with FP16 or not.')
 
 parser.add_argument('--efficient', type = lambda x: (str(x).lower() == 'true'), default=False,
