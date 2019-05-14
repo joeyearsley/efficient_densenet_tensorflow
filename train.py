@@ -40,7 +40,7 @@ parser.add_argument('--batch_size', type=int, default=3750,
 parser.add_argument('--fp16', type=bool, default=False,
                     help='Whether to run with FP16 or not.')
 
-parser.add_argument('--efficient', type=bool, default=False,
+parser.add_argument('--efficient', type = lambda x: (str(x).lower() == 'true'), default=False,
                     help='Whether to run with gradient checkpointing or not.')
 
 parser.add_argument(
