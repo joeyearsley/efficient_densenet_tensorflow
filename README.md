@@ -71,7 +71,7 @@ However more strategies can be found in the [alternate approach](https://github.
 - Horovod
 
 ## Usage
-If you care about speed, and memory is not an option, pass the `efficient=False` argument into the `DenseNet` constructor.
+If you care about speed, and memory is no object, pass the `efficient=False` argument into the `DenseNet` constructor.
 Otherwise, pass in `efficient=True`.
 
 Important Options:
